@@ -22,11 +22,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-          cache: "pip"
       - name: Confirm Python Version
         run: python --version
-      - name: Install additional dependencies
+      - name: upgrade pip
         run: python -m pip install --upgrade pip
+      - name: Install dependencies
         run: python -m pip install -r requirements_dev.txt
       - name: Run Pytest
         run: pytest
