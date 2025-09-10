@@ -5,5 +5,6 @@ echo "Running tests..."
 ./test_addition.sh
 ./test_subtraction.sh
 ./test_multiplication.sh
+./test_division.sh
 
 echo "All tests passed!"
