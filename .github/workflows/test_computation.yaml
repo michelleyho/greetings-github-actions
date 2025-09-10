@@ -1,6 +1,9 @@
 name: Run Bash computation tests before Merge
 
 on: 
+    push:
+        branches:
+            - main
     pull_request:
         branches:
             - main
