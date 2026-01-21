@@ -5,7 +5,7 @@ set -e
 num1=140
 num2=2
 computed_total=$((num1 / num2))
-expected_total=60
+expected_total=70
 
 if [ $expected_total -eq $computed_total ]; then
   echo "Division passed"
