@@ -6,3 +6,5 @@ Pygments==2.19.2
 pytest==8.4.1
 tomli==2.2.1
 typing_extensions==4.14.1
+flake8
+
