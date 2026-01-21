@@ -5,7 +5,7 @@ set -e
 num1=23
 num2=3
 computed_total=$((num1 * num2))
-expected_total=70
+expected_total=69
 
 if [ $expected_total -eq $computed_total ]; then
   echo "Multiplication passed"
